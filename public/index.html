@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Better Frontend Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- <script src="/public/script.js"></script> -->
+    <script src="/public/bundle.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="msg-ctn">
+        <div class="post-ctn"></div>
+            <div class="input-ctn"> 
+                <input
+                    aria-label="Text Area" 
+                    type="text" 
+                    maxlength="140" 
+                    placeholder="what's happening?" 
+                    id="messenger"
+                    onkeypress="submitOnEnter(event)"
+                />
+                <div id="charactersRemaining">140</div>
+                <button
+                    aria-label="Submit" 
+                    onclick="submitMessage()"
+                    id="submit-message"
+                >
+                    <i class="material-icons md-18" id="send">send</i>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>

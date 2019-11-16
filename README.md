@@ -6,6 +6,14 @@ Please implement the spec (design and product) using these instructions.
 
 ## Resources
 
+* Unzip better-frontend-test-react
+* cd chat-app/
+* npm i 
+* npm start && npm run-script build
+* Go to localhost:3000
+
+## Resources
+
 * [Design Spec](Design-Spec-Main.png) - use this as the design reference
 * [Roboto font](https://fonts.google.com/specimen/Roboto)
 * [Material Icons](http://google.github.io/material-design-icons/)

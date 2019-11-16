@@ -15,9 +15,9 @@ server.get('/api/users', (req, res) => {
   });
 
 //users POST endpoint  
-server.post('/api/posts', function (req, res) {
+server.post('/api/users', function (req, res) {
     res.status(200);
-    res.send('POST request to the homepage');
+    res.send({ message: 'sucess'});
 })  
 
 server.listen(PORT, () => {

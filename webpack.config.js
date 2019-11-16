@@ -2,14 +2,16 @@ const path = require("path");
 const webpack = require('webpack');
 
 module.exports = {
-    entry: path.join(__dirname, "public", "app.js"),
+    entry: 
+       path.join(__dirname, "public", "index.js"),
+    mode: 'development',
     module: {
         rules: [
           {
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
             use: {
-              loader: "babel-loader"
+              loader: "babel-loader",
             }
           }
         ]
@@ -27,6 +29,7 @@ module.exports = {
     ],
     devServer: {
         hot: true,
-        historyApiFallback: true
+        historyApiFallback: true,
+        writeToDisk: true,
     }
 };

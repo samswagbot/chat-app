@@ -1,12 +1,5 @@
-# Better Mortgage Frontend Test
+## Instructions
 
-This is a simple implementation of a chat user interface.
-
-Please implement the spec (design and product) using these instructions.
-
-## Resources
-
-* Unzip better-frontend-test-react
 * cd chat-app/
 * npm i 
 * npm start && npm run-script build
@@ -44,11 +37,3 @@ Here is a rough list of features in decreasing order of how important we think t
 * [ ] Every post needs to have date and time as well as user's avatar
 * [ ] Certain UI aspects are left unspecified - please use your creativity for implementing interactions, animations etc.
 * [ ] Mobile version of the UI is purposely not specified - it should be done based on your ideas
-
-## How to submit your work
-
-* Add instructions how to run the project
-* Explain the architectural decisions you made
-* Send a (g)zip of your completed work without artifacts (i.e. node_modules) through Greenhouse
-
-Please contact us if you have any questions.

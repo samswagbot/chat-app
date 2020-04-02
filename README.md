@@ -1,5 +1,4 @@
-## Name
-Chat App
+# Chat App
 
 ## Description
 
@@ -11,3 +10,11 @@ This is a single-user timeline of posts and messages. The interface is responsiv
 * npm i 
 * npm start && npm run-script build
 * Go to localhost:3000
+
+## Built With
+
+* ReactJs
+* ES6/JavaScript
+* Webpack
+* Express
+* Styled Components

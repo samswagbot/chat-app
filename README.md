@@ -18,3 +18,4 @@ This is a single-user timeline of posts and messages. The interface is responsiv
 * Webpack
 * Express
 * Styled Components
+* Material UI

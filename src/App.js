@@ -45,8 +45,8 @@ createUserMap() {
 render() {
   const { 
     // posts, 
-    // userMap, 
-    users 
+    // // userMap, 
+    // users 
   } = this.state;
   
     return (
